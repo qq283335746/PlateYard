@@ -1,0 +1,15 @@
+﻿<ion-header>
+
+  <ion-navbar>
+      <ion-title text-center>
+          <div>欢迎您：{{loginInfo.Account}}</div>
+          <button ion-button (click)="onLogout()">注销</button>
+      </ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+</ion-content>

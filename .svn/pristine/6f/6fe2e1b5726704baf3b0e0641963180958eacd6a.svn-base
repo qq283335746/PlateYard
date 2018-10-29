@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\VSWorkspace\ApacheCordova\Vs2017\PlateYard\PlateYard\platforms\android\libs\sqlite-connector.jar"
+        jumboMode="false"
+        revision="27.0.3"
+        sha1="76169ab23a4f939925491c6fe186749da5a56ee9">
+        <dex dex="D:\VSWorkspace\ApacheCordova\Vs2017\PlateYard\PlateYard\platforms\android\build\intermediates\pre-dexed\release\sqlite-connector_766e6ecacaae333b4bba7b12b8fcb9634717a3e4.jar" />
+    </item>
+    <item
+        jar="D:\VSWorkspace\ApacheCordova\Vs2017\PlateYard\PlateYard\platforms\android\libs\zbar.jar"
+        jumboMode="false"
+        revision="27.0.3"
+        sha1="7bbdf7ba57a8a157c0cad51e455609c70887812e">
+        <dex dex="D:\VSWorkspace\ApacheCordova\Vs2017\PlateYard\PlateYard\platforms\android\build\intermediates\pre-dexed\release\zbar_07ebfb2c494db67a035ffb712c6672fb1069b0c1.jar" />
+    </item>
+    <item
+        jar="D:\VSWorkspace\ApacheCordova\Vs2017\PlateYard\PlateYard\platforms\android\build\intermediates\exploded-aar\android\CordovaLib\unspecified\release\jars\classes.jar"
+        jumboMode="false"
+        revision="27.0.3"
+        sha1="3b375d2b71fa2d57009b9a8286b10b971aed1f89">
+        <dex dex="D:\VSWorkspace\ApacheCordova\Vs2017\PlateYard\PlateYard\platforms\android\build\intermediates\pre-dexed\release\CordovaLib-unspecified-release_a0f2332534eabdad0c4ab8b249ff6cdc8e3abfb8.jar" />
+    </item>
+    <item
+        jar="D:\VSWorkspace\ApacheCordova\Vs2017\PlateYard\PlateYard\platforms\android\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="27.0.3"
+        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
+        <dex dex="D:\VSWorkspace\ApacheCordova\Vs2017\PlateYard\PlateYard\platforms\android\build\intermediates\pre-dexed\release\com.android.support-support-v4-23.1.0_8bcf100b186cafa691e5cf22dcbdd07d191f1aaa.jar" />
+    </item>
+    <item
+        jar="D:\VSWorkspace\ApacheCordova\Vs2017\PlateYard\PlateYard\platforms\android\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\libs\internal_impl-23.1.0.jar"
+        jumboMode="false"
+        revision="27.0.3"
+        sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
+        <dex dex="D:\VSWorkspace\ApacheCordova\Vs2017\PlateYard\PlateYard\platforms\android\build\intermediates\pre-dexed\release\internal_impl-23.1.0_ba0304fd7fe56aac1c5a0fa26774bd99709194d6.jar" />
+    </item>
+    <item
+        jar="C:\Users\tyga\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\23.1.0\92e3fc113ec3ee36b64603a38857b95700025633\support-annotations-23.1.0.jar"
+        jumboMode="false"
+        revision="27.0.3"
+        sha1="92e3fc113ec3ee36b64603a38857b95700025633">
+        <dex dex="D:\VSWorkspace\ApacheCordova\Vs2017\PlateYard\PlateYard\platforms\android\build\intermediates\pre-dexed\release\support-annotations-23.1.0_e7eea953bba3560f94d018991264c346984b5827.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,20 @@
+﻿<ion-header>
+    <ion-navbar>
+        <ion-title text-center>注册</ion-title>
+    </ion-navbar>
+</ion-header>
+<ion-content padding>
+    <form [formGroup]="registFm">
+        <ion-item>
+            <ion-label>账号：</ion-label>
+            <ion-input type="text" placeholder="请输入账号" formControlName="Account"></ion-input>
+        </ion-item>
+        <p *ngIf="!registFm.controls.Account.valid && registFm.controls.Account.touched" style="color: #ff0000;">请输入账号！</p>
+        <ion-item>
+            <ion-label>密码：</ion-label>
+            <ion-input type="password" formControlName="Password"></ion-input>
+        </ion-item>
+        <button ion-button full (click)="onSignup(registFm.value)" [disabled]="!registFm.valid" style="margin-top: 15px;">注册</button>
+        <button ion-button full (click)="onLogin()">登录</button>
+    </form>
+</ion-content>

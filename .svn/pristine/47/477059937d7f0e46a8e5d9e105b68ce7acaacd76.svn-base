@@ -1,0 +1,23 @@
+﻿<ion-header>
+
+  <ion-navbar>
+      <ion-title text-center>堆场</ion-title>
+      <ion-buttons end>
+          <button ion-button (click)="onScan()">扫一扫</button>
+      </ion-buttons>
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content padding>
+    <ion-list>
+        <ion-item *ngFor="let stockyard of stockyards" (click)="showProduct(stockyard)">
+            {{stockyard.Name}}
+
+            <div item-right>
+                （共 {{stockyard.TotalProduct}} 块）
+                <ion-icon name="ios-arrow-forward" style="margin-left: 10px;"></ion-icon>
+            </div>
+        </ion-item>
+    </ion-list>
+</ion-content>

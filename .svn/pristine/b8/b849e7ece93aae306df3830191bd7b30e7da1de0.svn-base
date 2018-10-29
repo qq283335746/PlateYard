@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\VSWorkspace\\ApacheCordova\\Vs2017\\PlateYard\\PlateYard\\platforms\\android\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\camera_flash.png",
+        "source": "D:\\VSWorkspace\\ApacheCordova\\Vs2017\\PlateYard\\PlateYard\\platforms\\android\\res\\drawable-hdpi\\camera_flash.png"
+    },
+    {
+        "merged": "D:\\VSWorkspace\\ApacheCordova\\Vs2017\\PlateYard\\PlateYard\\platforms\\android\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\icon.png",
+        "source": "D:\\VSWorkspace\\ApacheCordova\\Vs2017\\PlateYard\\PlateYard\\platforms\\android\\res\\drawable-hdpi\\icon.png"
+    }
+]

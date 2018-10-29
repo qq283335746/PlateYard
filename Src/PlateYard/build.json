@@ -1,0 +1,11 @@
+{
+     "android": {
+      "release": {
+        "keystore": "D:\\AndroidStudioWorkspace\\Keystores\\android-release.keystore",
+        "storePassword": "283335746",
+        "alias": "283335746",
+        "password": "283335746",
+        "keystoreType": ""
+      }
+     }
+ }

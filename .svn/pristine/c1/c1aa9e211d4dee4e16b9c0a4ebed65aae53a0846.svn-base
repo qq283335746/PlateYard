@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="csZbarScannerBackground">#000000</color>
+    <color name="csZbarScannerTextBackground">#88000000</color>
+    <color name="csZbarScannerTextColor">#ffffff</color>
+    <string name="activity_name">@string/launcher_name</string>
+    <string name="app_name">PlateYard</string>
+    <string name="csZbarScannerInstructions">Please point your camera at the QR code.</string>
+    <string name="csZbarScannerTitle">Scan QR Code</string>
+    <string name="launcher_name">@string/app_name</string>
+</resources>

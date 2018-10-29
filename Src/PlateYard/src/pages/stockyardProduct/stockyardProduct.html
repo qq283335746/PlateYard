@@ -1,0 +1,16 @@
+﻿<ion-header>
+    <ion-navbar>
+        <ion-buttons left>
+            <button ion-button (click)="onCloseView()">取消</button>
+        </ion-buttons>
+        <ion-title text-center>{{stockyardInfo.Name}}</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+    <ion-list>
+        <ion-item *ngFor="let item of stockyardProducts" (click)="onRowSelected(item)">
+            第{{item.Index}}块钢板（{{item.Barcode}}
+        </ion-item>
+    </ion-list>
+</ion-content>

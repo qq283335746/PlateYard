@@ -1,0 +1,23 @@
+﻿<ion-header>
+    <ion-navbar>
+        <ion-title text-center>登录</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+    <form [formGroup]="loginFm" >
+        <ion-item>
+            <ion-label>账号：</ion-label>
+            <ion-input type="text" formControlName="Account"></ion-input>
+        </ion-item>
+        <p *ngIf="!loginFm.controls.Account.valid && loginFm.controls.Account.touched" style="color: #ff0000;">请正确输入账号！</p>
+        <ion-item>
+            <ion-label>密码：</ion-label>
+            <ion-input type="password" formControlName="Password"></ion-input>
+        </ion-item>
+        <button ion-button full (click)="onLogin(loginFm.value)" [disabled]="!loginFm.valid" style="margin-top: 15px;">登录</button>
+        <button ion-button full (click)="onSignup()">没有账号？去注册</button>
+    </form>
+
+</ion-content>

@@ -1,0 +1,18 @@
+﻿<ion-header>
+    <ion-navbar>
+        <ion-buttons left>
+            <button ion-button (click)="onCloseView()">取消</button>
+        </ion-buttons>
+        <ion-title text-center>钢板信息</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+    <form [formGroup]="stockyardFm">
+        <ion-item>
+            <ion-input type="text" placeholder="请输入堆场名称" formControlName="stockyardName"></ion-input>
+        </ion-item>
+        <p *ngIf="!stockyardFm.controls.stockyardName.valid && stockyardFm.controls.stockyardName.touched" style="color: #ff0000;">请输入账号！</p>
+        <button ion-button full (click)="onSave(stockyardFm.value)" [disabled]="!stockyardFm.valid" style="margin-top: 15px;">确定</button>
+    </form>
+</ion-content>
